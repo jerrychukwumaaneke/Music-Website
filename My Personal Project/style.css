@@ -1,0 +1,67 @@
+nav ul{list-style:none;}
+nav ul li{float:left;padding:4em;}
+nav ul a{text-decoration:none;}
+main{float:left;width:20%;}
+nav{float:right;width:80%;}
+main ul{list-style:none;}
+main ul li{padding:2em;}
+main ul a{text-decoration:none;} 
+main{background-color:#D4A017;min-height:600px;}
+nav{background-color:white;}
+body{background-color:#D4A017;}
+.bd{border-radius:10%;background-color:black;}
+#cont{display:grid;grid-template-rows:1;grid-template-columns:30% 70%;background-color:#D4A017;}
+nav ul li a:hover{background-color:black;border-radius:15%;}
+#container{width:100%;margin-left:auto;margin-right:auto;}
+#ones{min-height:auto;}
+  #so{ /* Smartphones (portrait and landscape) ---------- */
+    @media screen and (min-width: 320px) and (max-width: 480px){
+        body{
+			background: #7ce7e1;
+		}
+    }
+    /* Smartphones (portrait) ---------- */
+    @media screen and (max-width: 320px){
+        body{
+			background: #ffd280;
+		}
+    }
+    /* Smartphones (landscape) ---------- */
+    @media screen and (min-width: 321px){
+        body{
+			background: #9ddfbb;
+		}
+    }
+    /* tablets, iPads (portrait and landscape) ---------- */
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        body{
+			background: #ffb497;
+		}
+    }
+    /* tablets, iPads (portrait) ---------- */
+    @media screen and (min-width: 768px){
+        body{
+			background: #f0e68c;
+		}
+    }
+    /* tablets, iPads (landscape) ---------- */
+    @media screen and (min-width: 1024px){
+        body{
+			background: #d6b3f4;
+		}
+    }
+    /* Desktops and laptops ---------- */
+    @media screen and (min-width: 1224px){
+        body{
+			background: #d8ff9d;
+		}
+    }
+    /* Large screens ---------- */
+    @media screen and (min-width: 1824px){
+        body{
+			background: #ffc0cb;
+		}
+
+  }
+  img.not{-webkit-filter: brightness(200%); /* Chrome, Safari, Opera */
+    filter: brightness(200%);}
